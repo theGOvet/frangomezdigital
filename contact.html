@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Frangomez Digital</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="portfolio.html">Portafolio</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h1>Contacto</h1>
+        <p>Si deseas trabajar conmigo o tienes alguna pregunta, no dudes en ponerte en contacto.</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Frangomez Digital</p>
+    </footer>
+</body>
+</html>
