@@ -116,6 +116,11 @@ nav a:hover {
     color: black;
 }
 
+.project {
+    margin-bottom: 30px;
+}
+    
+
 /* Contact */
 #contact {
     text-align: center;
