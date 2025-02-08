@@ -181,6 +181,10 @@ form textarea {
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+    resize: vertical;
+    min-height: 120px;
 }
 
 form button {
