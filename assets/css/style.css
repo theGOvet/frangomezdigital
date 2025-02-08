@@ -99,7 +99,13 @@ nav a:hover {
     text-align: center;
     padding: 80px 20px;
     background: url('../images/projects-bg.png') center/cover;
-    color: white;
+    color: white;   
+}
+
+#portfolio h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 /* Footer */
