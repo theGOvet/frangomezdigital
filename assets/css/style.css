@@ -116,9 +116,8 @@ nav a:hover {
     color: black;
 }
 
-/* Contact
+/* Contact */
 #contact {
-    text-align: center; 
     padding: 40px 20px;
     background: url('../images/contact-bg.png') center/cover;
     color: white;   
