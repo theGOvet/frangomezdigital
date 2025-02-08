@@ -20,18 +20,23 @@
         <p>Si deseas trabajar conmigo o tienes alguna pregunta, no dudes en ponerte en contacto.</p>
         <p>Would you like to work with me or have a question? Don't hestiate to ask.</p>
 
-        <form action="submit_form.php" method="POST">
-            <label for="name">Nombre/Name:</label>
-            <input type="text" id="name" name="name" required>
+<!-- Formspree form -->
+<form
+  action="https://formspree.io/f/xvgzqwll"
+  method="POST"
+>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
 
-            <label for="message">Mensaje/Message:</label>
-            <textarea id="message" name="message" required></textarea>
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">Enviar/Send</button>
-        </form>
+    <button type="submit">Enviar</button>
+</form>
+
     </section>
 
     <footer>
