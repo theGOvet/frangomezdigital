@@ -102,6 +102,12 @@ nav a:hover {
     color: white;   
 }
 
+#portfolio h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
 #portfolio h2 {
     font-size: 30px;
     margin-bottom: 15px;
