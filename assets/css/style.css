@@ -116,14 +116,14 @@ nav a:hover {
     color: black;
 }
 
-/* Contact */
+/* Contact
 #contact {
-    /* text-align: center; if kept centred, the form inherits it*/ 
+    text-align: center; 
     padding: 40px 20px;
     background: url('../images/contact-bg.png') center/cover;
     color: white;   
 }
-
+ 
 /* Footer */
 footer {
     background: #222;
