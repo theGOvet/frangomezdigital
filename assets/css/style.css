@@ -118,7 +118,7 @@ nav a:hover {
 
 /* Contact */
 #contact {
-    text-align: center;
+    /* text-align: center; if kept centred, the form inherits it*/ 
     padding: 40px 20px;
     background: url('../images/contact-bg.png') center/cover;
     color: white;   
