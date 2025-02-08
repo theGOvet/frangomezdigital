@@ -34,7 +34,7 @@ nav a:hover {
 #hero {
     text-align: center;
     padding: 80px 20px;
-    background: url('../images/projects-bg.png') center/cover;
+    background: url('../images/hero-bg.png') center/cover;
     color: white;
 }
 
@@ -92,6 +92,14 @@ nav a:hover {
     margin: 0 auto;
     font-weight: 300;
     line-height: 1.6;
+}
+
+/* Portfolio */
+#portfolio {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('../images/projects-bg.png') center/cover;
+    color: white;
 }
 
 /* Footer */
