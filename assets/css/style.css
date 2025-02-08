@@ -34,7 +34,7 @@ nav a:hover {
 #hero {
     text-align: center;
     padding: 80px 20px;
-    background: url('../images/hero-bg.jpg') center/cover;
+    background: url('../images/projects-bg.png') center/cover;
     color: white;
 }
 
@@ -76,7 +76,8 @@ nav a:hover {
 #services {
     text-align: center;
     padding: 70px 20px;
-    background: #fff;
+    /*background: #fff;*/
+    background: url('../images/hero-bg.jpg') center/cover;
 }
 
 #services h2 {
