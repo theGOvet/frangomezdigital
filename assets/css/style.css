@@ -1,10 +1,13 @@
+/* Importar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 /* Header y navegación */
@@ -17,8 +20,10 @@ header {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -28,28 +33,33 @@ nav a:hover {
 /* Hero section */
 #hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 80px 20px;
     background: url('../img/hero-bg.jpg') center/cover;
     color: white;
 }
 
 #hero h1 {
-    font-size: 36px;
+    font-size: 42px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 #hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 300;
 }
 
+/* Botón estilizado */
 #hero button {
     background: #f39c12;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 25px;
     font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 #hero button a {
@@ -59,24 +69,28 @@ nav a:hover {
 
 #hero button:hover {
     background: #e67e22;
+    transform: scale(1.05);
 }
 
 /* Servicios */
 #services {
     text-align: center;
-    padding: 50px 20px;
-    background: #313333;
+    padding: 70px 20px;
+    background: #fff;
 }
 
 #services h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 #services p {
     font-size: 18px;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
+    font-weight: 300;
+    line-height: 1.6;
 }
 
 /* Footer */
@@ -84,19 +98,66 @@ footer {
     background: #222;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 16px;
 }
 
 /* Enlaces de idioma */
 footer a {
     color: #f39c12;
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
+    color: #e67e22;
     text-decoration: underline;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button {
+    background: #f39c12;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+form button:hover {
+    background: #e67e22;
 }
