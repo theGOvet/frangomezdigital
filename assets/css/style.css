@@ -97,7 +97,7 @@ nav a:hover {
 /* Portfolio */
 #portfolio {
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
     background: url('../images/projects-bg.png') center/cover;
     color: white;   
 }
@@ -113,6 +113,7 @@ nav a:hover {
     font-size: 30px;
     margin-bottom: 15px;
     font-weight: 600;
+    color: black;
 }
 
 /* Footer */
