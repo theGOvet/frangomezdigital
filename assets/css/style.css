@@ -76,8 +76,8 @@ nav a:hover {
 #services {
     text-align: center;
     padding: 70px 20px;
-    /*background: #fff;*/
-    background: url('../images/hero-bg.jpg') center/cover;
+    background: #fff;
+    
 }
 
 #services h2 {
