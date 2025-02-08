@@ -184,7 +184,6 @@ form textarea {
     box-sizing: border-box;
 
     resize: vertical;
-    /* min-height: 120px; */
 }
 
 form button {
