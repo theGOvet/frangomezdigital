@@ -119,6 +119,12 @@ nav a:hover {
 .project {
     padding-bottom: 30px;
 }
+
+.italic-shadow {
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
     
 
 /* Contact */
